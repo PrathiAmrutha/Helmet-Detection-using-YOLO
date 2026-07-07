@@ -1,0 +1,11 @@
+# 1. The absolute path to your dataset root folder
+path: D:/PROGRAMMING/PYTHON/helmet_detect/dataset  
+
+# 2. Paths to your train and validation folders RELATIVE to the root path above
+train: train/images
+val: valid/images
+
+# 3. Class names (Ensure 0 and 1 match your dataset annotations)
+names:
+  0: helmet
+  1: no_helmet
